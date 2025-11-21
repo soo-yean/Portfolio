@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Blob Shape -->
+  <path 
+    d="M50 5 C20 5 5 20 5 50 C5 80 20 95 50 95 C80 95 95 80 95 50 C95 20 80 5 50 5 Z" 
+    fill="#fef3c7" 
+  />
+  <!-- Happy Face -->
+  <g transform="translate(50, 50)">
+    <circle cx="-15" cy="-10" r="5" fill="#000" />
+    <circle cx="15" cy="-10" r="5" fill="#000" />
+    <path d="M-20 10 Q0 25 20 10" stroke="#000" strokeWidth="3" fill="none" strokeLinecap="round" />
+  </g>
+</svg>

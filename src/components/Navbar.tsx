@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
@@ -10,17 +10,18 @@ const Navbar = () => {
       {/* Left Links */}
       <div className="hidden md:flex gap-8">
         <Link 
-          to="/projects" 
-          className={`text-sm font-bold tracking-widest uppercase hover:text-gray-500 transition-colors ${isActive('/projects') ? 'text-black' : 'text-gray-400'}`}
+          to="/experience" 
+          className={`text-sm font-bold tracking-widest uppercase hover:text-gray-500 transition-colors ${isActive('/experience') ? 'text-black' : 'text-gray-400'}`}
         >
           Work
         </Link>
         <Link 
-          to="/experience-1" 
-          className={`text-sm font-bold tracking-widest uppercase hover:text-gray-500 transition-colors ${isActive('/experience-1') || isActive('/experience-2') ? 'text-black' : 'text-gray-400'}`}
+          to="/projects" 
+          className={`text-sm font-bold tracking-widest uppercase hover:text-gray-500 transition-colors ${isActive('/projects') ? 'text-black' : 'text-gray-400'}`}
         >
-          Experience
+          Projects
         </Link>
+        
       </div>
 
       {/* Center Logo */}
@@ -40,7 +41,7 @@ const Navbar = () => {
           href="mailto:hello@soo.com" 
           className="text-sm font-bold tracking-widest uppercase text-gray-400 hover:text-black transition-colors"
         >
-          Hi!
+          Connect
         </a>
       </div>
 

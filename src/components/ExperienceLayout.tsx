@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Illustration from './Illustration';
 
 interface Project {
@@ -22,7 +22,7 @@ const ExperienceLayout: React.FC<ExperienceLayoutProps> = ({
   projects 
 }) => {
   return (
-    <div className="max-w-4xl mx-auto py-12 md:py-20">
+    <div className="max-w-4xl mx-auto pb-12 md:pb-20 pt-4 md:pt-8">
       {/* Header */}
       <div className="flex flex-col md:flex-row gap-8 items-start mb-20">
         <div className="w-24 h-24 shrink-0">

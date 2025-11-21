@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ProjectCard from '../components/ProjectCard';
 import Illustration from '../components/Illustration';
 
@@ -11,7 +11,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="py-12 md:py-20">
+    <div className="pb-12 md:pb-20 pt-4 md:pt-8">
       <div className="text-center mb-24">
         <div className="w-32 h-32 mx-auto mb-6">
           <Illustration variant="idea" />

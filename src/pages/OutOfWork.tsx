@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Slideshow from '../components/Slideshow';
 import Illustration from '../components/Illustration';
 
@@ -17,7 +17,7 @@ const OutOfWork = () => {
   ];
 
   return (
-    <div className="py-12 md:py-20">
+    <div className="pb-12 md:pb-20 pt-4 md:pt-8">
       <div className="flex flex-col items-center text-center mb-24">
         <div className="w-32 h-32 mb-6">
           <Illustration variant="curious" />

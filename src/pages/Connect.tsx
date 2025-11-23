@@ -43,17 +43,19 @@ const Connect = () => {
         </a>
       </div>
 
-      {/* Contact Form Temp */}
+      {/* Contact Form */}
       <div className="bg-gray-50 p-8 md:p-12 rounded-3xl">
         <h2 className="text-2xl font-bold mb-8">Send me a message</h2>
-        <form className="space-y-6 text-left">
+        <form target="_blank" action="https://formsubmit.co/sooyeanjang@gmail.com" method="POST" className="space-y-6 text-left">
           <div>
             <label htmlFor="name" className="block text-sm font-bold uppercase tracking-wider text-gray-500 mb-2">Name</label>
             <input 
               type="text" 
               id="name"
+              name="name"
               className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-black focus:ring-0 outline-none transition-colors bg-white font-serif"
               placeholder="Your name"
+              required
             />
           </div>
           <div>
@@ -61,24 +63,28 @@ const Connect = () => {
             <input 
               type="email" 
               id="email"
+              name="email"
               className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-black focus:ring-0 outline-none transition-colors bg-white font-serif"
               placeholder="your@email.com"
+              required
             />
           </div>
           <div>
             <label htmlFor="message" className="block text-sm font-bold uppercase tracking-wider text-gray-500 mb-2">Message</label>
             <textarea 
               id="message"
+              name="message"
               rows={4}
               className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-black focus:ring-0 outline-none transition-colors bg-white font-serif resize-none"
               placeholder="Hello..."
+              required
             ></textarea>
           </div>
           <button 
             type="submit"
-            className="w-full py-4 bg-black text-white rounded-xl font-bold hover:bg-gray-800 transition-colors"
+            className="w-full py-4 bg-black text-white rounded-xl font-bold hover:bg-gray-800 transition-colors cursor-pointer"
           >
-            Send Message
+            Let's Connect!
           </button>
         </form>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface IllustrationProps {
-  variant: 'happy' | 'curious' | 'working' | 'idea';
+  variant: 'happy' | 'curious' | 'working' | 'idea' | 'laptop';
   className?: string;
 }
 
@@ -11,6 +11,7 @@ const Illustration: React.FC<IllustrationProps> = ({ variant, className = '' }) 
     curious: 'var(--color-pastel-blue)',
     working: 'var(--color-pastel-green)',
     idea: 'var(--color-pastel-pink)',
+    laptop: 'var(--color-pastel-blue)',
   };
 
   const renderFace = () => {
@@ -46,6 +47,15 @@ const Illustration: React.FC<IllustrationProps> = ({ variant, className = '' }) 
             <circle cx="-15" cy="-5" r="5" fill="#000" />
             <circle cx="15" cy="-5" r="5" fill="#000" />
             <circle cx="0" cy="15" r="8" fill="none" stroke="#000" strokeWidth="3" />
+          </g>
+        );
+      case 'laptop':
+        return (
+          <g transform="translate(50, 50)">
+            <rect x="-20" y="10" width="40" height="24" rx="2" fill="none" stroke="#000" strokeWidth="3" />
+            <path d="M-25 34 L25 34" stroke="#000" strokeWidth="3" strokeLinecap="round" />
+            <circle cx="-12" cy="-5" r="5" fill="#000" />
+            <circle cx="12" cy="-5" r="5" fill="#000" />
           </g>
         );
     }

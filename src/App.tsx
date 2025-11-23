@@ -5,6 +5,7 @@ import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
 import OutOfWork from './pages/OutOfWork';
+import Connect from './pages/Connect';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/projects/:id" element={<ProjectDetail />} />
             <Route path="/out-of-work" element={<OutOfWork />} />
+            <Route path="/connect" element={<Connect />} />
           </Routes>
         </main>
       </div>

@@ -37,12 +37,12 @@ const Navbar = () => {
         >
           Life
         </Link>
-        <a 
-          href="mailto:hello@soo.com" 
-          className="text-sm font-bold tracking-widest uppercase text-gray-400 hover:text-black transition-colors"
+        <Link 
+          to="/connect" 
+          className={`text-sm font-bold tracking-widest uppercase hover:text-black transition-colors ${isActive('/connect') ? 'text-black' : 'text-gray-400'}`}
         >
           Connect
-        </a>
+        </Link>
       </div>
 
       {/* Mobile Menu Button (Placeholder) */}

@@ -4,10 +4,10 @@ import Illustration from '../components/Illustration';
 
 const Projects = () => {
   const projects = [
-    { id: 1, title: "Neon Dreams", category: "Web Application", color: "#e0f2fe" },
-    { id: 2, title: "Cyber Space", category: "VR Experience", color: "#fce7f3" },
-    { id: 3, title: "Data Flow", category: "Visualization", color: "#fef3c7" },
-    { id: 4, title: "Sonic Wave", category: "Audio Interface", color: "#dcfce7" }
+    { id: 1, title: "Grand Diary Hotel", category: "Interactive Storytelling Design", color: "#e0f2fe", image: "/src/assets/GrandDiaryHotel/1.png" },
+    { id: 2, title: "Kurly Hack Festa", category: "Ecommerce Innovation Hackathon", color: "#fce7f3" },
+    { id: 3, title: "Movie Jar", category: "A Couple's App", color: "#fef3c7", image: "/src/assets/MovieJar/MJ_0.png" },
+    { id: 4, title: "Soo.", category: "Portfolio", color: "#dcfce7" }
   ];
 
   return (
@@ -16,7 +16,7 @@ const Projects = () => {
         <div className="w-32 h-32 mx-auto mb-6">
           <Illustration variant="idea" />
         </div>
-        <h1 className="text-4xl md:text-6xl font-black mb-4">Selected Works</h1>
+        <h1 className="text-4xl md:text-6xl font-black mb-4">Portfolio</h1>
         <p className="text-xl text-gray-500 font-serif">A collection of experiments and products.</p>
       </div>
       

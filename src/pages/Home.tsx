@@ -1,5 +1,5 @@
-import React from 'react';
-import Illustration from '../components/Illustration';
+import React from "react";
+import Illustration from "../components/Illustration";
 
 const Home = () => {
   return (
@@ -16,12 +16,12 @@ const Home = () => {
         <p className="text-xl md:text-2xl text-gray-600 font-serif leading-relaxed">
           I turn ideas into digital experiences that spark joy in every click!
         </p>
-        
+
         {/* <div className="flex justify-center gap-4 pt-8">
           <a href="/projects" className="px-8 py-3 bg-black text-white rounded-full font-bold hover:bg-gray-800 transition-colors">
             See my work
           </a>
-          <a href="/out-of-work" className="px-8 py-3 border-2 border-black rounded-full font-bold hover:bg-gray-50 transition-colors">
+          <a href="/assets" className="px-8 py-3 border-2 border-black rounded-full font-bold hover:bg-gray-50 transition-colors">
             More about me
           </a>
         </div> */}

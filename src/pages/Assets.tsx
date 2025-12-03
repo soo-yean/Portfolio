@@ -1,22 +1,44 @@
 import Slideshow from "../components/Slideshow";
 import Illustration from "../components/Illustration";
 
+// Import images
+import CA1 from "../assets/Asset/CA/CA_0.svg";
+import CA2 from "../assets/Asset/CA/CA_1.svg";
+import CA3 from "../assets/Asset/CA/CA_2.svg";
+
+import S1 from "../assets/Asset/Accreditations/Sales_0.png";
+import S2 from "../assets/Asset/Accreditations/Sales_1.png";
+import S3 from "../assets/Asset/Accreditations/Sales_2.png";
+import S4 from "../assets/Asset/Accreditations/Sales_3.png";
+import S5 from "../assets/Asset/Accreditations/Sales_4.png";
+import S6 from "../assets/Asset/Accreditations/Sales_5.png";
+import S7 from "../assets/Asset/Accreditations/Sales_6.png";
+import S8 from "../assets/Asset/Accreditations/Sales_7.png";
+import S9 from "../assets/Asset/Accreditations/Sales_8.png";
+
+import J1 from "../assets/Asset/Journalist/J_0.svg";
+import J2 from "../assets/Asset/Journalist/J_1.svg";
+import J3 from "../assets/Asset/Journalist/J_2.svg";
+
 const OutOfWork = () => {
   const experiences = [
     {
       title: "Technical Delivery & Sales",
-      description: "Atlassian solutions sales and delivery.",
-      images: ["#e0f2fe", "#f0f9ff", "#bae6fd"],
+      description:
+        "While working as a Solutions Engineer, I focused on the connection between software and client. With these accreditations and the insights I gained, I'm ready to translate technical concepts into clear business value.",
+      images: [S1, S2, S3, S4, S5, S6, S7, S8, S9],
     },
     {
       title: "Communications Assistant",
-      description: "In Embassy of Sweden, Seoul.",
-      images: ["#dcfce7", "#f0fdf4", "#bbf7d0"],
+      description:
+        "With the Embassy of Sweden in Seoul, I coordinated major student fairs connecting Swedish organizations with the local community. I discovered that I truly thrive in dynamic environments, being the bridge across cultures and languages.",
+      images: [CA1, CA2, CA3],
     },
     {
       title: "Journalist",
-      description: "For The Korea Economic Daily.",
-      images: ["#dcfce7", "#f0fdf4", "#bbf7d0"],
+      description:
+        "Writing for The Korean Economic Daily, I covered topics ranging from global sustainability to European business and culture. I was recognized with the 'Excellent Reporter Award' for my commitment to blending deep analysis with readability.",
+      images: [J1, J2, J3],
     },
   ];
 
@@ -30,7 +52,8 @@ const OutOfWork = () => {
           Value Beyond Code
         </h1>
         <p className="text-xl text-gray-500 font-serif max-w-xl">
-          When I’m not in the terminal, I’m connecting tech to people.
+          When I’m not behind the screen, I’m out connecting with the real
+          world.
         </p>
       </div>
 
@@ -51,7 +74,7 @@ const OutOfWork = () => {
             <div className="w-full md:w-1/2 text-center md:text-left">
               <h2 className="text-3xl font-bold mb-4">{exp.title}</h2>
               <p className="text-gray-600 text-lg font-serif italic">
-                "{exp.description}"
+                {exp.description}
               </p>
             </div>
           </div>

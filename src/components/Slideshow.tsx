@@ -26,13 +26,13 @@ const Slideshow: React.FC<SlideshowProps> = ({ images }) => {
       <div className="absolute bottom-0 left-0 p-6 flex gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <button
           onClick={prevSlide}
-          className="w-12 h-12 flex items-center justify-center bg-white text-black hover:bg-black hover:text-white transition-colors"
+          className="w-12 h-12 flex items-center justify-center bg-white text-black hover:bg-blue-400 hover:text-white hover:cursor-pointer transition-colors"
         >
           ←
         </button>
         <button
           onClick={nextSlide}
-          className="w-12 h-12 flex items-center justify-center bg-white text-black hover:bg-black hover:text-white transition-colors"
+          className="w-12 h-12 flex items-center justify-center bg-white text-black hover:bg-blue-400 hover:text-white hover:cursor-pointer transition-colors"
         >
           →
         </button>

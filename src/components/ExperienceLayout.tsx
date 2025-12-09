@@ -1,5 +1,4 @@
-
-import Illustration from './Illustration';
+import Illustration from "./Illustration";
 
 interface Project {
   name: string;
@@ -12,18 +11,18 @@ interface ExperienceLayoutProps {
   location: string;
   description: string;
   projects: Project[];
-  illustrationVariant?: 'happy' | 'curious' | 'working' | 'idea' | 'laptop';
+  illustrationVariant?: "happy" | "curious" | "working" | "idea" | "laptop";
   period: string;
 }
 
-const ExperienceLayout: React.FC<ExperienceLayoutProps> = ({ 
-  companyName, 
-  role, 
-  location, 
-  description, 
+const ExperienceLayout: React.FC<ExperienceLayoutProps> = ({
+  companyName,
+  role,
+  location,
+  description,
   projects,
   illustrationVariant = "working",
-  period
+  period,
 }) => {
   return (
     <div className="max-w-4xl mx-auto pb-12 md:pb-20 pt-4 md:pt-8">
@@ -60,7 +59,7 @@ const ExperienceLayout: React.FC<ExperienceLayoutProps> = ({
       {/* Projects */}
       <div className="grid md:grid-cols-[1fr_2fr] gap-12 md:gap-24">
         <div className="text-gray-400 font-bold uppercase tracking-widest text-sm sticky top-32 h-fit">
-          Projects
+          Key Clients/Projects
         </div>
         <div className="space-y-12">
           {projects.map((project, index) => (

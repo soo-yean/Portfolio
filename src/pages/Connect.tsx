@@ -29,7 +29,7 @@ const Connect = () => {
           href="https://github.com/soo-yean"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-400 hover:text-black transition-colors font-bold uppercase tracking-widest text-sm"
+          className="text-gray-400 hover:text-blue-600 transition-colors font-bold uppercase tracking-widest text-sm"
         >
           GitHub
         </a>

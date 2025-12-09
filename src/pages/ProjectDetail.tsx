@@ -1,5 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { useEffect } from "react";
+import ImageWithLoader from "../components/ImageWithLoader";
 
 // Import images
 import GDH1 from "../assets/Projects/GrandDiaryHotel/GDH_1.png";
@@ -142,10 +143,10 @@ const ProjectDetail = () => {
           {/* Main Hero Image */}
           {/* <div className="w-full aspect-video rounded-3xl overflow-hidden shadow-2xl"> */}
           <div className="w-full object-cover rounded-3xl overflow-hidden shadow-2xl">
-            <img
+            <ImageWithLoader
               src={project.images[0]}
               alt={`${project.title} Hero`}
-              className="w-full h-full object-cover"
+              className="w-full h-full"
             />
           </div>
         </div>
@@ -224,7 +225,7 @@ const ProjectDetail = () => {
               key={index}
               className="w-full rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-500"
             >
-              <img
+              <ImageWithLoader
                 src={image}
                 alt={`${project.title} detail ${index + 1}`}
                 className="w-full h-auto"

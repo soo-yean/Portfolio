@@ -13,13 +13,10 @@ const Connect = () => {
         {/* <h1 className="text-4xl md:text-5xl font-black mb-6">Let's Connect!</h1> */}
         <div className="text-xl text-gray-600 font-serif leading-relaxed space-y-4">
           <p>
-            I'm always open to discussing new projects, creative ideas, or
-            opportunities to be part of your visions.
+            I love diving into new projects and bringing creative ideas to life.
           </p>
-          <p>
-            Whether you have a question or just want to say hi, I'm happy to get
-            back to you!
-          </p>
+          <p>Whether you have a challenge for me or just want to say hi,</p>
+          <p className="text-blue-400"> I’m always happy to connect!</p>
         </div>
       </div>
 

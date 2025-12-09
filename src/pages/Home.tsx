@@ -14,7 +14,7 @@ const Home = () => {
 
       <div className="max-w-4xl mx-auto space-y-6">
         <p className="text-xl md:text-2xl text-gray-600 font-serif leading-relaxed">
-          I turn ideas into digital experiences that spark joy in every click!
+          I turn ideas into digital experiences that spark joy with every click!
         </p>
 
         {/* <div className="flex justify-center gap-4 pt-8">

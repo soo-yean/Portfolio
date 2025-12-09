@@ -1,3 +1,5 @@
+import profileImg from "../assets/profile.jpg";
+
 const Connect = () => {
   return (
     <div className="max-w-2xl mx-auto pb-12 md:pb-20 pt-4 md:pt-8 text-center">
@@ -5,7 +7,7 @@ const Connect = () => {
       <div className="mb-12">
         <div className="w-64 h-64 md:w-96 md:h-96 mx-auto mb-6 rounded-full overflow-hidden bg-gray-100 border-4 border-white shadow-lg relative">
           <img
-            src="/src/assets/profile.jpg"
+            src={profileImg}
             alt="Profile"
             className="w-full h-full object-cover"
           />

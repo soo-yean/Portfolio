@@ -1,6 +1,12 @@
 import ProjectCard from "../components/ProjectCard";
 import Illustration from "../components/Illustration";
 
+// Import images
+import GDH0 from "../assets/Projects/GrandDiaryHotel/GDH_0.png";
+import Kurly0 from "../assets/Projects/Kurly/K_0.svg";
+import MovieJar0 from "../assets/Projects/MovieJar/MJ_0.png";
+import HejHaj0 from "../assets/Projects/HejHaj/H_0.svg";
+
 const Projects = () => {
   const projects = [
     {
@@ -8,27 +14,27 @@ const Projects = () => {
       title: "Grand Diary Hotel",
       category: "Interactive Story Game",
       color: "#e0f2fe",
-      image: "/src/assets/Projects/GrandDiaryHotel/GDH_0.png",
+      image: GDH0,
     },
     {
       id: 2,
       title: "Kurly Hack Festa",
       category: "Ecommerce Innovation Hackathon",
       color: "#fce7f3",
-      image: "/src/assets/Projects/Kurly/K_0.svg",
+      image: Kurly0,
     },
     {
       id: 3,
       title: "Movie Jar",
       category: "A Couple's App",
       color: "#fef3c7",
-      image: "/src/assets/Projects/MovieJar/MJ_0.png",
+      image: MovieJar0,
     },
     {
       id: 4,
       title: "HejHaj",
       category: "Automated Language Learning Bot",
-      image: "/src/assets/Projects/HejHaj/H_0.svg",
+      image: HejHaj0,
       color: "#dcfce7",
     },
   ];

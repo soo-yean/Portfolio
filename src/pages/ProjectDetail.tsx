@@ -1,6 +1,27 @@
 import { useParams, Link } from "react-router-dom";
 import { useEffect } from "react";
 
+// Import images
+import GDH1 from "../assets/Projects/GrandDiaryHotel/GDH_1.png";
+import GDH2 from "../assets/Projects/GrandDiaryHotel/GDH_2.png";
+import GDH3 from "../assets/Projects/GrandDiaryHotel/GDH_3.svg";
+import GDH4 from "../assets/Projects/GrandDiaryHotel/GDH_4.svg";
+
+import K1 from "../assets/Projects/Kurly/K_1.svg";
+import K2 from "../assets/Projects/Kurly/K_2.svg";
+import K3 from "../assets/Projects/Kurly/K_3.svg";
+import K4 from "../assets/Projects/Kurly/K_4.svg";
+import K5 from "../assets/Projects/Kurly/K_5.svg";
+
+import MJ0 from "../assets/Projects/MovieJar/MJ_0.png";
+import MJ1 from "../assets/Projects/MovieJar/MJ_1.svg";
+import MJ2 from "../assets/Projects/MovieJar/MJ_2.svg";
+import MJ3 from "../assets/Projects/MovieJar/MJ_3.svg";
+
+import H1 from "../assets/Projects/HejHaj/H_1.svg";
+import H2 from "../assets/Projects/HejHaj/H_2.svg";
+import H3 from "../assets/Projects/HejHaj/H_3.svg";
+
 interface ProjectData {
   title: string;
   category: string;
@@ -32,12 +53,7 @@ const ProjectDetail = () => {
       skills: ["HTML", "CSS", "Twine", "Photoshop"],
       achievement:
         "Awarded '최우수 인터랙티브 스토리텔링 작품상(Best Storytelling Award)' at D.CAMP Creative Challenge 2020.",
-      images: [
-        "/src/assets/Projects/GrandDiaryHotel/GDH_1.png",
-        "/src/assets/Projects/GrandDiaryHotel/GDH_2.png",
-        "/src/assets/Projects/GrandDiaryHotel/GDH_3.svg",
-        "/src/assets/Projects/GrandDiaryHotel/GDH_4.svg",
-      ],
+      images: [GDH1, GDH2, GDH3, GDH4],
       color: "#e0f2fe",
     },
     2: {
@@ -57,13 +73,7 @@ const ProjectDetail = () => {
         "Trello",
       ],
       achievement: "Advanced to the main round out of 156 competing teams.",
-      images: [
-        "/src/assets/Projects/Kurly/K_1.svg",
-        "/src/assets/Projects/Kurly/K_2.svg",
-        "/src/assets/Projects/Kurly/K_3.svg",
-        "/src/assets/Projects/Kurly/K_4.svg",
-        "/src/assets/Projects/Kurly/K_5.svg",
-      ],
+      images: [K1, K2, K3, K4, K5],
       color: "#fce7f3",
     },
     3: {
@@ -84,12 +94,7 @@ const ProjectDetail = () => {
         title: "Movie Jar for Adam and Soo💖",
         link: "https://movie-jar-wheat.vercel.app/",
       },
-      images: [
-        "/src/assets/Projects/MovieJar/MJ_0.png",
-        "/src/assets/Projects/MovieJar/MJ_1.svg",
-        "/src/assets/Projects/MovieJar/MJ_2.svg",
-        "/src/assets/Projects/MovieJar/MJ_3.svg",
-      ],
+      images: [MJ0, MJ1, MJ2, MJ3],
       color: "#fef3c7",
     },
     4: {
@@ -99,11 +104,7 @@ const ProjectDetail = () => {
         "An automated message service for Swedish learners. I built this workflow to tackle the hardest part of learning a new language: consistency. This bot automates the habit by delivering one practical, real-life Swedish phrase every morning.",
       role: "Automation Developer",
       skills: ["n8n", "Google AI Studio API", "Telegram API", "JSON"],
-      images: [
-        "/src/assets/Projects/HejHaj/H_1.svg",
-        "/src/assets/Projects/HejHaj/H_2.svg",
-        "/src/assets/Projects/HejHaj/H_3.svg",
-      ],
+      images: [H1, H2, H3],
       color: "#dcfce7",
     },
   };

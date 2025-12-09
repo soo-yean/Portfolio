@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
@@ -10,6 +11,7 @@ import Connect from "./pages/Connect";
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-white text-black font-sans selection:bg-blue-100">
         <Navbar />
         <main className="pt-24 px-6 md:px-12 max-w-7xl mx-auto">

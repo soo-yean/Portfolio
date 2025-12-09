@@ -25,7 +25,7 @@ const ProjectDetail = () => {
   const projectData: Record<string, ProjectData> = {
     1: {
       title: "Grand Diary Hotel",
-      category: "Interactive Storytelling Design",
+      category: "Interactive Story Game",
       description:
         "A digital experience designed to promote the social app 3LINEDIARY through interactive storytelling. The project blends character creation, narrative design, art direction and technology to deliver an emotionally engaging experience that connects users with the product in a memorable way.",
       role: "Art Director & Story Designer",
@@ -33,10 +33,10 @@ const ProjectDetail = () => {
       achievement:
         "Awarded '최우수 인터랙티브 스토리텔링 작품상(Best Storytelling Award)' at D.CAMP Creative Challenge 2020.",
       images: [
-        "/src/assets/GrandDiaryHotel/GDH_1.png",
-        "/src/assets/GrandDiaryHotel/GDH_2.png",
-        "/src/assets/GrandDiaryHotel/GDH_3.png",
-        "/src/assets/GrandDiaryHotel/GDH_4.png",
+        "/src/assets/Projects/GrandDiaryHotel/GDH_1.png",
+        "/src/assets/Projects/GrandDiaryHotel/GDH_2.png",
+        "/src/assets/Projects/GrandDiaryHotel/GDH_3.svg",
+        "/src/assets/Projects/GrandDiaryHotel/GDH_4.svg",
       ],
       color: "#e0f2fe",
     },
@@ -44,7 +44,7 @@ const ProjectDetail = () => {
       title: "Kurly Hack Festa",
       category: "Ecommerce Innovation Hackathon",
       description:
-        "A recommendation engine leveraging reviews and search data to boost customer engagement and purchases. Built from scratch in three days through seamless collaboration with three other members.",
+        "A recommendation engine leveraging review data to boost customer engagement and purchases. Built from scratch in three days through seamless collaboration with three other members.",
       role: "Frontend Developer",
       skills: [
         "React",
@@ -58,10 +58,11 @@ const ProjectDetail = () => {
       ],
       achievement: "Advanced to the main round out of 156 competing teams.",
       images: [
-        "https://via.placeholder.com/1200x800/fce7f3/000000?text=Kurly+Hack+Festa+Hero",
-        "https://via.placeholder.com/1200x800/fdf2f8/000000?text=Dashboard+View",
-        "https://via.placeholder.com/1200x800/fce7f3/000000?text=Mobile+App+Interface",
-        "https://via.placeholder.com/1200x800/fdf2f8/000000?text=Presentation+Day",
+        "/src/assets/Projects/Kurly/K_1.svg",
+        "/src/assets/Projects/Kurly/K_2.svg",
+        "/src/assets/Projects/Kurly/K_3.svg",
+        "/src/assets/Projects/Kurly/K_4.svg",
+        "/src/assets/Projects/Kurly/K_5.svg",
       ],
       color: "#fce7f3",
     },
@@ -84,26 +85,24 @@ const ProjectDetail = () => {
         link: "https://movie-jar-wheat.vercel.app/",
       },
       images: [
-        "/src/assets/MovieJar/MJ_0.png",
-        "https://via.placeholder.com/1200x800/fef3c7/000000?text=Movie+Jar+Hero",
-        "https://via.placeholder.com/1200x800/fffbeb/000000?text=Shake+Interaction",
-        "https://via.placeholder.com/1200x800/fef3c7/000000?text=Movie+Details",
-        "https://via.placeholder.com/1200x800/fffbeb/000000?text=Shared+List",
+        "/src/assets/Projects/MovieJar/MJ_0.png",
+        "/src/assets/Projects/MovieJar/MJ_1.svg",
+        "/src/assets/Projects/MovieJar/MJ_2.svg",
+        "/src/assets/Projects/MovieJar/MJ_3.svg",
       ],
       color: "#fef3c7",
     },
     4: {
-      title: "Soo.",
-      category: "Portfolio",
+      title: "HejHaj",
+      category: "Automated Language Learning Bot",
       description:
-        "My personal portfolio website designed to showcase my work and personality. Built with a focus on playful minimalism and smooth interactions.",
-      role: "Designer & Developer",
-      skills: ["React", "Vite", "TypeScript", "Tailwind CSS", "Antigravity"],
+        "An automated message service for Swedish learners. I built this workflow to tackle the hardest part of learning a new language: consistency. This bot automates the habit by delivering one practical, real-life Swedish phrase every morning.",
+      role: "Automation Developer",
+      skills: ["n8n", "Google AI Studio API", "Telegram API", "JSON"],
       images: [
-        "https://via.placeholder.com/1200x800/dcfce7/000000?text=Portfolio+Hero",
-        "https://via.placeholder.com/1200x800/f0fdf4/000000?text=Project+Grid",
-        "https://via.placeholder.com/1200x800/dcfce7/000000?text=Experience+Page",
-        "https://via.placeholder.com/1200x800/f0fdf4/000000?text=Mobile+Responsive",
+        "/src/assets/Projects/HejHaj/H_1.svg",
+        "/src/assets/Projects/HejHaj/H_2.svg",
+        "/src/assets/Projects/HejHaj/H_3.svg",
       ],
       color: "#dcfce7",
     },

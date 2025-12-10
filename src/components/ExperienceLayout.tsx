@@ -46,7 +46,7 @@ const ExperienceLayout: React.FC<ExperienceLayoutProps> = ({
 
       {/* Description */}
       <div className="grid md:grid-cols-[1fr_2fr] gap-12 md:gap-24">
-        <div className="text-gray-400 font-bold uppercase tracking-widest text-sm sticky top-32 h-fit">
+        <div className="text-gray-400 font-bold uppercase tracking-widest text-sm md:sticky md:top-32 h-fit">
           Key Contributions
         </div>
         <div className="text-xl leading-relaxed font-serif text-gray-800">
@@ -58,7 +58,7 @@ const ExperienceLayout: React.FC<ExperienceLayoutProps> = ({
 
       {/* Projects */}
       <div className="grid md:grid-cols-[1fr_2fr] gap-12 md:gap-24">
-        <div className="text-gray-400 font-bold uppercase tracking-widest text-sm sticky top-32 h-fit">
+        <div className="text-gray-400 font-bold uppercase tracking-widest text-sm md:sticky md:top-32 h-fit">
           Key Clients/Projects
         </div>
         <div className="space-y-12">

@@ -23,16 +23,16 @@ const Slideshow: React.FC<SlideshowProps> = ({ images }) => {
         className="w-full h-full object-cover transition-opacity duration-500 ease-in-out"
       />
 
-      <div className="absolute bottom-0 left-0 p-6 flex gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      <div className="absolute inset-0 flex justify-between items-center px-4 pointer-events-none md:top-auto md:right-auto md:bottom-0 md:left-0 md:p-6 md:gap-4 md:justify-start md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
         <button
           onClick={prevSlide}
-          className="w-12 h-12 flex items-center justify-center bg-white text-black hover:bg-blue-400 hover:text-white hover:cursor-pointer transition-colors"
+          className="pointer-events-auto text-gray-300 text-3xl drop-shadow-md hover:text-blue-400 hover:cursor-pointer transition-colors md:w-12 md:h-12 md:flex md:items-center md:justify-center md:bg-white md:text-black md:text-base md:drop-shadow-none md:hover:bg-blue-400 md:hover:text-white"
         >
           ←
         </button>
         <button
           onClick={nextSlide}
-          className="w-12 h-12 flex items-center justify-center bg-white text-black hover:bg-blue-400 hover:text-white hover:cursor-pointer transition-colors"
+          className="pointer-events-auto text-gray-300 text-3xl drop-shadow-md hover:text-blue-400 hover:cursor-pointer transition-colors md:w-12 md:h-12 md:flex md:items-center md:justify-center md:bg-white md:text-black md:text-base md:drop-shadow-none md:hover:bg-blue-400 md:hover:text-white"
         >
           →
         </button>

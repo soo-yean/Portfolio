@@ -29,7 +29,7 @@ const OutOfWork = () => {
       images: [S1, S2, S3, S4, S5, S6, S7, S8, S9],
     },
     {
-      title: "Communications Assistant",
+      title: "Digital Ambassador",
       description:
         "With the Embassy of Sweden in Seoul, I coordinated major student fairs connecting Swedish organizations with the local community. I discovered that I truly thrive in dynamic environments, being the bridge across cultures and languages.",
       images: [CA1, CA2, CA3],
